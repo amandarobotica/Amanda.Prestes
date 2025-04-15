@@ -54,12 +54,13 @@ div{
     background-size:175px;
 }
 video {
-    width: 400px;
+    width: 430px;
 }
 
 h1{
     background-color: black;
     text-align: center;
+    width: auto;
 
 }
 label{
@@ -68,4 +69,11 @@ label{
 }
 input{
     width: 400px;
+}
+iframe{
+    width: 1210px;
+}
+@media (max-width: 500px){
+    iframe {width: 420px;}
+    a{color: #f10768;}
 }
