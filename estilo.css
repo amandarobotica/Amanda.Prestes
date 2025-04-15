@@ -1,0 +1,71 @@
+body{
+    background-color: wsrgb(212, 190, 238);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e70e69;
+
+    
+}
+div{
+    width: 900px;
+    height: 100px;
+    background-color: rgb(236, 14, 125);
+    color: antiquewhite;
+    font-size: 60px;
+    border-radius: 15px;
+    border: solid;
+
+
+}
+.bloco-externo{
+    border-radius: 15px;
+    background-color:rgb(0, 183, 255);
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: rows;
+}
+.bloco-interno {
+    width: 100px;
+    height: 100px;
+    background-color: #e70e9f;
+    margin: 5px;
+    font-size: 80px;
+    text-align: center;
+}
+ .bloco1{
+    background-color: #eee7ed94;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    font-size: 70px;
+    text-align: center;
+    background-image: url(rapunzel.jpg);
+    background-size: 175px;
+ }
+.bloco2{
+    background-color: rgb(15, 152, 243);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    font-size:70px ;
+    text-align:center ;
+    background-image: url(rapunzel\ 2.jpg);
+    background-size:175px;
+}
+video {
+    width: 400px;
+}
+
+h1{
+    background-color: black;
+    text-align: center;
+
+}
+label{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+input{
+    width: 400px;
+}
